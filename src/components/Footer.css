@@ -1,0 +1,21 @@
+.footer {
+  background-color: white;
+  z-index: 5;
+}
+
+.content-f {
+  padding: .7rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.content-f p {
+  color: #323940;
+  font-size: 13px;
+}
+
+.logo-f {
+  width: 100px; 
+}

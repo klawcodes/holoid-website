@@ -1,0 +1,70 @@
+#image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero .content {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.hero .content #logo {
+  width: 500px;
+}
+
+.main {
+  position: relative;
+  top: 35vh;
+  left: 5vh;
+}
+
+.socials {
+  color: #fff;
+  padding-top: 2rem;
+}
+
+.socials h4 {
+  font-size: 20px;
+  padding: .5rem;
+}
+
+.about {
+  padding-top: 2rem;
+}
+
+.about p {
+  padding-top: 1rem;
+}
+
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 155%;
+  z-index: -1;
+  background-color: rgba(0,0,0,.3);
+}
+
+.right-f {
+  z-index: 4;
+}
+
+.v-y {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem;
+  gap: 1rem;
+  margin: auto; 
+}
