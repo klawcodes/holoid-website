@@ -1,0 +1,80 @@
+.gen-list {
+  position: relative;
+  top: 20.5vh;
+}
+
+h1 {
+  padding: 4rem;
+  color: #fff;
+  transition: .5s ease;
+}
+
+.area15 {
+  z-index: 4;
+  transition: .5s ease;
+}
+
+.holoro{
+  z-index: 4;
+  transition: .5s ease;
+  position: relative;
+  top: 2rem;
+}
+
+.holoh3ro {
+  z-index: 4;
+  transition: .5s ease;
+  position: relative;
+  top: 4rem;
+}
+#g-image{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+hr {
+  color: #fff;
+}
+
+.gen-img {
+  position: relative;
+  max-width: 500px;
+  z-index: 0;
+}
+
+h1:hover {
+  color: #323940;
+}
+
+.area15:hover {
+  cursor: pointer;
+  background-image: url('../assets/hololive_id_gen_1_by_hadirutopia_delakqd-fullview.jpg');
+  background-position: 50% 30%;
+  background-size: 900px;
+}
+
+.holoro:hover {
+  cursor: pointer;
+  background-image: url('../assets/hololive_id_generasi_kedua_header_cv.jpg');
+  background-position: 40% 35%;
+}
+
+.holoh3ro:hover {
+  cursor: pointer;
+  background-image: url('../assets/FPooarcVIAAjOQz.jpeg');
+  background-position: 50% 25%;
+  background-size: 800px;
+}
+
+.gen {
+}
+
+.gen-bg {
+  padding-bottom: 50.3vh;
+  background-color: rgba(0,0,0,.3);
+}
