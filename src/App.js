@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Home from './routes/Home'
 import Generation from './routes/Generation'
+import Member from './routes/Member'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/generation' element={<Generation />} />
+        <Route path='/member' element={<Member />} />
       </Routes>
     </>
   );

@@ -1,0 +1,62 @@
+.layout {
+}
+
+.l-bg {
+  padding-bottom: 15rem;
+  padding-top: 10rem;
+  background-color: rgba(8,8,8,.3);
+}
+
+.mem-list {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.mem-list img {
+  width: 300px;
+  margin-bottom: .3rem;
+  transition: .3s ease;
+  border-radius: 5%;
+}
+
+.yopi h3,
+.risu h3,
+.moona h3,
+.ollie h3,
+.anya h3,
+.reine h3,
+.zeta h3,
+.kaela h3,
+.lord h3 {
+  padding-top: .9rem;
+  font-size: 13px;
+  margin-bottom: .9rem;
+  color: #fff;
+}
+
+.yopi h2,
+.risu h2,
+.moona h2,
+.ollie h2,
+.anya h2,
+.reine h2,
+.zeta h2,
+.kaela h2,
+.lord h2 {
+  font-size: 22px;
+  color: #fff;
+}
+
+.mem-list img:hover {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+hr.g {
+ border: 1px solid #fff;
+ width: 300px;
+}
