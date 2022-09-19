@@ -73,6 +73,8 @@
 .v-p {
   display: flex;
   padding-top: 2rem;
+  align-items: center;
+  justify-content: center;
   padding-left: 2rem;
 }
 

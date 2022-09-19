@@ -6,6 +6,7 @@ import Generation from './routes/Generation'
 import Member from './routes/Member'
 
 import Moona from './routes/subRoutes/Moona'
+import Risu from './routes/subRoutes/Risu'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/generation' element={<Generation />} />
         <Route path='/member' element={<Member />} />
         <Route path='/member/moona-hoshinova' element={<Moona />} />
+        <Route path='/member/ayunda-risu' element={<Risu />} />
       </Routes>
     </>
   );

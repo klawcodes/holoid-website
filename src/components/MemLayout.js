@@ -23,10 +23,10 @@ const MemLayout = () => {
       <div className='l-bg'>
         <div className='mem-list'>
 
-          <div className="yopi">
-            <a href="" target="_blank">
+          <div className="risu">
+            <Link to='/member/ayunda-risu'>
               <img src={iRisu} className="imagek"/> 
-            </a>  
+            </Link>
             <h3>GEN 1 - AREA 15</h3>
             <h2>AYUNDA RISU</h2>
           </div>
