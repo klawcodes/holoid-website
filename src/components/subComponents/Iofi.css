@@ -1,0 +1,16 @@
+#i-body {
+  position: relative;
+  bottom: 15rem;
+  padding-left: 2rem;
+  width: 350px;
+}
+
+.i {
+color: #000;
+text-decoration: none;
+transition: .3s ease;
+}
+
+.i:hover {
+color: #e3cace;
+}

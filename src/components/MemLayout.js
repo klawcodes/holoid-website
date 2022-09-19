@@ -38,9 +38,9 @@ const MemLayout = () => {
             <h2>MOONA HOSHINOVA</h2>
           </div>
           <div className="yopi">
-            <a href="" target="_blank">
+            <Link to='/member/airani-iofifteen'>
               <img src={iYopi} className="imagek"/> 
-            </a>  
+            </Link>
             <h3>GEN 1 - AREA 15</h3> 
             <h2>AIRANI IOFIFTEEN</h2>
           </div>
