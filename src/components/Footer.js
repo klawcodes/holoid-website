@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='content-f'>
         <img src={Logo} className='logo-f' />
-        <p>2022 Hololive Indonesia, Created by KLAW</p>
+        <p>© 2022 Hololive Indonesia, Created by KLAW</p>
       </div>
     </div>
   )

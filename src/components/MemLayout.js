@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import './MemLayout.css'
 import bg from '../assets/bg.jpeg'
@@ -29,14 +30,14 @@ const MemLayout = () => {
             <h3>GEN 1 - AREA 15</h3>
             <h2>AYUNDA RISU</h2>
           </div>
-          <div className="risu">
-            <a href="" target="_blank">
+          <div className="moona">
+            <Link to='/member/moona-hoshinova'>
               <img src={iMoona} className="imagek"/> 
-            </a>  
+            </Link>
             <h3>GEN 1 - AREA 15</h3>
             <h2>MOONA HOSHINOVA</h2>
           </div>
-          <div className="moona">
+          <div className="yopi">
             <a href="" target="_blank">
               <img src={iYopi} className="imagek"/> 
             </a>  

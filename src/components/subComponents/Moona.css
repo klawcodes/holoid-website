@@ -1,0 +1,137 @@
+#m-image {
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  bottom: 2rem;
+  z-index: -1;
+}
+
+.m-bg {
+  padding-bottom: 50vh;
+  background-color: rgba(0,0,0,.2);
+}
+
+.g-trans {
+  height: 150px;
+  position: relative;
+  top: 5rem;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.g-solid {
+  height: 130rem;
+  position: relative;
+  margin-bottom: -20rem;
+  top: 5rem;
+  display: flex;
+  background-color: #fff;
+}
+
+.m-t {
+  color: #000;
+  padding-left: 2rem;
+  font-size: 70px;
+}
+
+.m-ts {
+  color: #000;
+  position: relative;
+  bottom: .5rem;
+  padding-left: 2rem;
+  font-weight: 100;
+}
+
+.m-p {
+  color: #000;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+#m-body {
+  position: relative;
+  bottom: 10rem;
+  padding-left: 2rem;
+}
+
+.m-profile {
+  padding-top: 7rem;
+}
+
+.m-tss {
+  color: #000;
+  padding-left: 2rem; 
+}
+
+.m-l {
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+  width: 55rem;
+}
+
+.v-p {
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.m-pp {
+  color: #000;
+  padding-left: 2rem;
+}
+
+.m-personal {
+  padding-top: 6rem;
+}
+
+.m-ppp {
+  color: #000;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.m-so {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.m-cover {
+  width: 300px;
+}
+
+.m-j {
+  color: #000;
+}
+
+.m-js {
+  font-weight: 100;
+}
+
+.music-link {
+  justify-content: center;
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.m-socials {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.m {
+  color: #000;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+.m:hover {
+  color: #7559a2;
+}
