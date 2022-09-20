@@ -53,7 +53,7 @@ const MemLayout = () => {
             <h2>KUREIJI OLLIE</h2>
           </div>
           <div className="anya">
-            <Link to='/member/anya-melfisa'>
+            <Link to='/member/anya-melfissa'>
               <img src={iAnya} className="imagek"/> 
             </Link>
             <h3>GEN 2 - HOLORO</h3>

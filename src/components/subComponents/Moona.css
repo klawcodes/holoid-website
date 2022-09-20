@@ -97,7 +97,8 @@
   padding-top: 2.5rem;
   padding-left: 2rem;
   display: flex;
-  justify-content: space-between;
+  gap: 8rem;
+  justify-content: center;
   text-align: center;
 }
 
