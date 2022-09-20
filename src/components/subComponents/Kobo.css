@@ -1,0 +1,29 @@
+#k-image {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.mm-lord {
+  display: flex;
+  gap: .21rem;
+}
+
+.t-lord {
+  padding-left: 2rem;
+  font-size: 12px;
+  margin-right: -2rem;
+  padding-top: 3.5rem;
+}
+
+.k {
+  color: #000;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+.k:hover {
+  color: #74b9d1;
+}

@@ -68,23 +68,23 @@ const MemLayout = () => {
           </div>
 
           <div className="zeta">
-            <a href="" target="_blank">
+            <Link to='/member/vestia-zeta'>
               <img src={iZeta} className="imagek"/> 
-            </a>  
+            </Link>  
             <h3>GEN 3 - HOLOH3RO</h3>
             <h2>VESTIA ZETA</h2>
           </div>
           <div className="kaela">
-            <a href="" target="_blank">
+            <Link to='/member/kaela-kovalskia'>
               <img src={iKaela} className="imagek"/> 
-            </a>  
+            </Link>
             <h3>GEN 3 - HOLOH3RO</h3>
             <h2>KAELA KOVALSKIA</h2>
           </div>
           <div className="lord">
-            <a href="" target="_blank">
+            <Link to='/member/kobo-kanaeru'>
               <img src={iLord} className="imagek"/> 
-            </a>  
+            </Link>  
             <h3>GEN 3 - HOLOH3ERO</h3> 
             <h2>KOBO KANAERU</h2>
           </div>

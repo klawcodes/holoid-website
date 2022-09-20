@@ -8,9 +8,12 @@ import Member from './routes/Member'
 import Moona from './routes/subRoutes/Moona'
 import Risu from './routes/subRoutes/Risu'
 import Iofi from './routes/subRoutes/Iofi'
+
 import Reine from './routes/subRoutes/Reine'
 import Ollie from './routes/subRoutes/Ollie'
 import Anya from './routes/subRoutes/Anya'
+
+import Kobo from './routes/subRoutes/Kobo'
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
         <Route path='/member/pavolia-reine' element={<Reine />} />
         <Route path='/member/kureiji-ollie' element={<Ollie />} />
         <Route path='/member/anya-melfissa' element={<Anya />} />
+        <Route path='/member/kobo-kanaeru' element={<Kobo />} />
       </Routes>
     </>
   );
