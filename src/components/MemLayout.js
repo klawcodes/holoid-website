@@ -46,23 +46,23 @@ const MemLayout = () => {
           </div>
 
           <div className="ollie">
-            <a href="" target="_blank">
+            <Link to='/member/kureiji-ollie'>
               <img src={iOllie} className="imagek"/> 
-            </a>  
+            </Link>
             <h3>GEN 2 - HOLORO</h3>
             <h2>KUREIJI OLLIE</h2>
           </div>
           <div className="anya">
-            <a href="" target="_blank">
+            <Link to='/member/anya-melfisa'>
               <img src={iAnya} className="imagek"/> 
-            </a>  
+            </Link>
             <h3>GEN 2 - HOLORO</h3>
             <h2>ANYA MELFISA</h2>
           </div>
           <div className="reine">
-            <a href="" target="_blank">
+            <Link to='/member/pavolia-reine'> 
               <img src={iReine} className="imagek"/> 
-            </a>  
+            </Link>
             <h3>GEN 2 - HOLORO</h3> 
             <h2>PAVOLIA REINE</h2>
           </div>

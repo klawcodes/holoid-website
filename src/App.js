@@ -8,6 +8,7 @@ import Member from './routes/Member'
 import Moona from './routes/subRoutes/Moona'
 import Risu from './routes/subRoutes/Risu'
 import Iofi from './routes/subRoutes/Iofi'
+import Reine from './routes/subRoutes/Reine.js'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/member/moona-hoshinova' element={<Moona />} />
         <Route path='/member/ayunda-risu' element={<Risu />} />
         <Route path='/member/airani-iofifteen' element={<Iofi />} />
+        <Route path='/member/pavolia-reine' element={<Reine />} />
       </Routes>
     </>
   );
