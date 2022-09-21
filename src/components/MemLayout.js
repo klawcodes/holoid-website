@@ -57,7 +57,7 @@ const MemLayout = () => {
               <img src={iAnya} className="imagek"/> 
             </Link>
             <h3>GEN 2 - HOLORO</h3>
-            <h2>ANYA MELFISA</h2>
+            <h2>ANYA MELFISSA</h2>
           </div>
           <div className="reine">
             <Link to='/member/pavolia-reine'> 
