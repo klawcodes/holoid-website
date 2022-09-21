@@ -1,0 +1,9 @@
+.kk {
+  color: #000;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+.kk:hover {
+  color: #edc93e;
+}

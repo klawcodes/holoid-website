@@ -14,6 +14,7 @@ import Ollie from './routes/subRoutes/Ollie'
 import Anya from './routes/subRoutes/Anya'
 
 import Kobo from './routes/subRoutes/Kobo'
+import Kaela from './routes/subRoutes/Kaela'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/member/kureiji-ollie' element={<Ollie />} />
         <Route path='/member/anya-melfissa' element={<Anya />} />
         <Route path='/member/kobo-kanaeru' element={<Kobo />} />
+        <Route path='/member/kaela-kovalskia' element={<Kaela />} />
       </Routes>
     </>
   );
