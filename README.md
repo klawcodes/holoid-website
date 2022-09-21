@@ -7,9 +7,9 @@
 
 ## Credit to the Artist
 
-AREA 15's Background by ...<br/>
-Holoro's Background by ...<br/>
-Holoh3ro's Background by ...<br/><br/>
+AREA 15's Background by [Airani Iofifteen](https://twitter.com/airaniiofifteen)<br/>
+Holoro's Background by [Airani Iofifteen](https://twitter.com/airaniiofifteen)<br/>
+Holoh3ro's Background by [SAKON](https://twitter.com/sakonlieur/status/1506832853040242688)<br/><br/>
 
 Ayunda Risu's Illustration by [Yatomi](https://twitter.com/8103x)<br/>
 Moona Hoshinova's Illustration by [Niyori](https://twitter.com/nyorinyori)<br/>
