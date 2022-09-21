@@ -14,3 +14,10 @@ transition: .3s ease;
 .i:hover {
 color: #e3cace;
 }
+
+@media screen and (max-width: 540px) {
+
+  #i-body {
+    padding-left: 0;
+  }
+}

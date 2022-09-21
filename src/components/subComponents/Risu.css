@@ -22,3 +22,9 @@
 .r:hover {
   color: #e08d97;
 }
+
+@media screen and (max-width: 540px) {
+  #r-body {
+    padding-left: .6rem;
+  }
+}

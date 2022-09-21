@@ -60,3 +60,10 @@ hr.g {
  border: 1px solid #fff;
  width: 300px;
 }
+
+@media screen and (max-width: 540px) {
+  .mem-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

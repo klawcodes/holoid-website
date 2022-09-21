@@ -27,3 +27,12 @@
 .k:hover {
   color: #74b9d1;
 }
+
+
+@media screen and (max-width: 540px) {
+
+  .t-lord {
+    padding-top: 3rem;
+    font-size: 9px;
+  }
+}

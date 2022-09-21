@@ -61,7 +61,7 @@
     height: 100vh;
     transition: .3s;
     z-index: -1;
-    background: rgba(0,0,0,.9);
+    background: rgba(98, 175, 186,.9);
   }
 
   .nav-menu.active {

@@ -138,3 +138,63 @@
 .m:hover {
   color: #7559a2;
 }
+
+@media screen and (max-width: 540px) {
+  #m-image {
+    
+  }
+
+  .g-solid {
+    display: block;
+    height: 240rem; 
+  }
+
+  .m-left{
+    padding-left: 2rem;  
+  }
+
+  .m-right {
+    width: 350px;
+    margin-top: -9rem;
+    padding-left: 1.1rem;
+  }
+  
+  .m-t {
+    font-size: 60px;
+  }
+
+  .v-p {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .m-pp {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .m-so {
+    display: block;
+  }
+
+  .h-t {
+    padding-top: 2rem;
+  }
+
+  .m-cover {
+    width: 250px;
+  }
+
+  .m-icon {
+    width: 30px;
+  }
+
+  .m-socials {
+    gap: 2rem;
+  }
+
+  .m-l {
+    width: 20rem;
+  }
+}

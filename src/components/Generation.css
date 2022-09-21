@@ -53,21 +53,22 @@ h1:hover {
 
 .area15:hover {
   cursor: pointer;
-  background-image: url('../assets/hololive_id_gen_1_by_hadirutopia_delakqd-fullview.jpg');
+  background-image: url('../assets/area15.jpeg');
   background-position: 50% 30%;
-  background-size: 900px;
+  background-size: 800px;
 }
 
 .holoro:hover {
   cursor: pointer;
-  background-image: url('../assets/hololive_id_generasi_kedua_header_cv.jpg');
-  background-position: 40% 35%;
+  background-image: url('../assets/Reine,_Anya_and_Ollie_Genderbend_Version.png');
+  background-position: 45% 10%;
+  background-size: 900px;
 }
 
 .holoh3ro:hover {
   cursor: pointer;
-  background-image: url('../assets/FPooarcVIAAjOQz.jpeg');
-  background-position: 50% 25%;
+  background-image: url('../assets/Hololive_Indonesia_3rd_Gen_Debut_Art_by_SAKON.png');
+  background-position: 40% 25%;
   background-size: 800px;
 }
 
@@ -77,4 +78,21 @@ h1:hover {
 .gen-bg {
   padding-bottom: 50.3vh;
   background-color: rgba(0,0,0,.3);
+}
+
+@media screen and (max-width: 540px) {
+  .area15:hover {
+    background-position: 50% 30%;
+    background-size: 500px;
+  }
+  
+  .holoro:hover {
+    background-position: 55% 30%;
+    background-size: 500px;
+  }
+  
+  .holoh3ro:hover {
+    background-position: 60% 15%;
+    background-size: 500px;
+  }
 }

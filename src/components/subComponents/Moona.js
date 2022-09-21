@@ -89,11 +89,11 @@ const Moona = () => {
               <h2 className='m-tss'>Social</h2>
               <hr className='m-l'/>
               <div className='m-socials'>
-                <a className='m' href='https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg/featured' target='_blank'><BsYoutube size={40}/></a>
-                <a className='m' href='https://twitter.com/moonahoshinova' target='_blank'><BsTwitter size={40}/></a>
-                <a className='m' href='https://www.instagram.com/moonahoshinova/' target='_blank'><BsInstagram size={40}/></a>
-                <a className='m' href='https://www.tiktok.com/@itsmoona__' target='_blank'><FaTiktok size={40}/></a>
-                <a className='m' href='https://www.facebook.com/Moona-Hoshinova-hololive-ID-103251478005455/' target='_blank'><FaFacebookSquare size={40}/></a>
+                <a className='m' href='https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg/featured' target='_blank'><BsYoutube className='m-icon' size={40}/></a>
+                <a className='m' href='https://twitter.com/moonahoshinova' target='_blank'><BsTwitter className='m-icon' size={40}/></a>
+                <a className='m' href='https://www.instagram.com/moonahoshinova/' target='_blank'><BsInstagram className='m-icon' size={40}/></a>
+                <a className='m' href='https://www.tiktok.com/@itsmoona__' target='_blank'><FaTiktok className='m-icon' size={40}/></a>
+                <a className='m' href='https://www.facebook.com/Moona-Hoshinova-hololive-ID-103251478005455/' target='_blank'><FaFacebookSquare className='m-icon' size={40}/></a>
               </div>
             </div>
           </div>

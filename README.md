@@ -19,7 +19,7 @@ Kureii Ollie's Illustration by [LAM](https://twitter.com/ramdayo1122)<br/>
 Anya Melfisa's Illustration by [Uekura Eku](https://twitter.com/ekureea)<br/>
 Pavolia Reine's Illustration by [Lida Pochi](https://twitter.com/lizhi3)<br/><br/>
 
-Vestia Zeta's Illustration by [Tera Aru](https://twitter.com/TeraAru6262)<br/>
+Vestia Zeta's Illustration by [Tera Aru](https://twitter.com/TeraAru6262) and [Airani Iofifteen](https://twitter.com/airaniiofifteen)<br/>
 Kaela Kovalskia's Illustration by [Suzuhito Yasuda](https://twitter.com/suzupin)<br/>
 Kobo Kanaeru's Illustration by [Ponkan](https://twitter.com/ponkan_8)<br/><br/>
 
