@@ -35,7 +35,7 @@ const Iofi = () => {
               <h2 className='m-tss'>Profile</h2>
               <hr className='m-l'/>
               <div className='v-p'>
-                <iframe width="320" height="180" src="https://www.youtube.com/embed/EM11RaN_Zn8" frameborder="0" id='i-frame'></iframe>
+                <iframe width="321" height="180" src="https://www.youtube.com/embed/EM11RaN_Zn8" frameborder="0" id='i-frame'></iframe>
                 <p className='m-pp'>
     "IOFORIA~! OBISA!" "Pagi semua! I’m your beloved smart alien <br/>iofi from hololive Indonesia, nice to meet you!" <br/><br/>
 

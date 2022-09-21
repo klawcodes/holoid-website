@@ -35,7 +35,7 @@ const Ollie = () => {
               <h2 className='m-tss'>Profile</h2>
               <hr className='m-l'/>
               <div className='v-p'>
-                <iframe width="320" height="180" src="https://www.youtube.com/embed/RfnJ3zFgUuU" frameborder="0" id='i-frame'></iframe>
+                <iframe width="321" height="180" src="https://www.youtube.com/embed/RfnJ3zFgUuU" frameborder="0" id='i-frame'></iframe>
                 <p className='m-pp'>
     "ZOMBANWA!! SUPER KAWAII ZOMBIE IDOL,<br/> KU KU KU KUREIJI OLLIE DESU~!!"<br/><br/>
 

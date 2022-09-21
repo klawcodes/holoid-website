@@ -35,7 +35,7 @@ const Reine = () => {
               <h2 className='m-tss'>Profile</h2>
               <hr className='m-l'/>
               <div className='v-p'>
-                <iframe width="320" height="180" src="https://www.youtube.com/embed/tyoz_LRDCbU" frameborder="0" id='i-frame'></iframe>
+                <iframe width="321" height="180" src="https://www.youtube.com/embed/tyoz_LRDCbU" frameborder="0" id='i-frame'></iframe>
                 <p className='m-pp'>
     "Perhatian, sang putri merak yang tertiup angin, aku Pavolia Reine <br/>dari hololive ID."<br/><br/>
 

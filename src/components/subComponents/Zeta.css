@@ -1,0 +1,15 @@
+#z-body {
+  position: relative;
+  bottom: 10rem;
+  width: 500px;
+}
+
+.z {
+  color: #000;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+.z:hover {
+  color: #5c5b66;
+}
