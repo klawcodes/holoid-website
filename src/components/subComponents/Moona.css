@@ -198,3 +198,14 @@
     width: 20rem;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .m-left {
+    padding-left: .2rem;
+  }
+
+  .m-right {
+    padding-left: 0;
+    margin-left: -.9rem;
+  }
+}
