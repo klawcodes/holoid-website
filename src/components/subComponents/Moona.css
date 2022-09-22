@@ -209,3 +209,13 @@
     margin-left: -.9rem;
   }
 }
+
+@media screen and (max-width: 393px) {
+  .m-left {
+    padding-left: 1rem;
+  }
+
+  .m-right {
+    padding-left: .2rem;
+  }
+}
