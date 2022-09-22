@@ -121,3 +121,14 @@
     height: 200%;
   }
 }
+
+@media screen and (max-width: 390px) {
+
+  .bg {
+    height: 190%;
+  }
+
+  .v-y {
+    margin-right: 2.1rem;
+  }
+}

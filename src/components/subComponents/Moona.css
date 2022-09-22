@@ -201,7 +201,8 @@
 
 @media screen and (max-width: 360px) {
   .m-left {
-    padding-left: .2rem;
+    padding-left: 0rem;
+    margin-left: -1rem;
   }
 
   .m-right {
