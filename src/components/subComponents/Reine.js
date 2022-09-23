@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import {Link} from 'react-router-dom'
 
@@ -13,7 +13,16 @@ import rrSh from '../../assets/reine-ss.jpeg'
 import {BsMusicNoteBeamed, BsYoutube, BsFillPlayCircleFill, BsTwitter, BsInstagram} from 'react-icons/bs'
 import {FaFacebookSquare, FaTiktok} from 'react-icons/fa'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Reine = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className='reine-com'>
       <img src={rrBg} alt='' id='rr-image' />
@@ -21,20 +30,20 @@ const Reine = () => {
         <div className='g-trans'></div>
         <div className='g-solid'>
           <div className='m-left'>
-            <img src={rrFb} alt='' id='rr-body' />
+            <img src={rrFb} alt='' id='rr-body' data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" />
           </div>
           <div className='m-right'>
             <div className='m-about'>
-              <h2 className='m-t'>Pavolia Reine</h2>
-              <h2 className='m-ts'>(パヴォリア・レイネ)</h2>
-              <p className='m-p'>
+              <h2 className='m-t' data-aos="fade-up" data-aos-delay="500" data-aos-duration="900">Pavolia Reine</h2>
+              <h2 className='m-ts' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1200">(パヴォリア・レイネ)</h2>
+              <p className='m-p' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1600">
     Pavolia Reine is a female Indonesian Virtual YouTuber associated with hololive, debuting as<br/> part of its Indonesian (ID) branch second generation of VTubers alongside<br/> Kureiji Ollie and Anya Melfissa.  
               </p>
             </div>
             <div className='m-profile'>
-              <h2 className='m-tss'>Profile</h2>
-              <hr className='m-l'/>
-              <div className='v-p'>
+              <h2 className='m-tss' data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">Profile</h2>
+              <hr className='m-l' data-aos="fade-up" data-aos-delay="200" data-aos-duration="500"/>
+              <div className='v-p' data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">
                 <iframe width="321" height="180" src="https://www.youtube.com/embed/tyoz_LRDCbU" frameborder="0" id='i-frame'></iframe>
                 <p className='m-pp'>
     "Perhatian, sang putri merak yang tertiup angin, aku Pavolia Reine <br/>dari hololive ID."<br/><br/>
@@ -48,17 +57,17 @@ Very fond of sweets, but weak with overly spicy food. At first <br/>glance, she 
               </div>
             </div>
           <div className='m-personal'>
-              <h2 className='m-tss'>Personality</h2>
-              <hr className='m-l'/>
-              <p className='m-ppp'>
+              <h2 className='m-tss' data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">Personality</h2>
+              <hr className='m-l' data-aos="fade-up" data-aos-delay="200" data-aos-duration="900"/>
+              <p className='m-ppp' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
     Reine appears as a composed, mature and elegant person. Despite her being the Lady of the Peafowl, she <br/>doesn't hold back to show her more gentle and down-to-earth side. She also actively tries to be more sociable with <br/>her senpais and kouhais as time goes on. Reine has a strong chemistry with her gen-mates, Anya and Ollie. <br/><br/> 
     Additionally, Reine refuses to being called "bottom left" and insists that she's "Seiso" and "Top Right" idol, <br/>while the only bottom left people in her streams are her fans, to the point where she moved the chat's box from <br/>top right of the screen to the bottom left, at one occasion.
               </p>
             </div>
           <div className='m-personal'>
-              <h2 className='m-tss'>Discography</h2>
-              <hr className='m-l' />
-              <div className='m-so'>
+              <h2 className='m-tss' data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">Discography</h2>
+              <hr className='m-l' data-aos="fade-up" data-aos-delay="200" data-aos-duration="900"  />
+              <div className='m-so' data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">
                 <div className='ai-no'>
                   <img className='m-cover' src={rrSa} alt=''/>
                   <h2 className='m-j'>"Gate Open: START!"</h2>
@@ -68,7 +77,7 @@ Very fond of sweets, but weak with overly spicy food. At first <br/>glance, she 
                     <a className='rr' href='https://music.youtube.com/playlist?list=OLAK5uy_lbmJZy4wfr4r-Y2SUZflnthEsf4LW0JlI' target='_blank'><BsFillPlayCircleFill size='20' /></a>
                   </div>
                 </div>
-                <div className='h-t'>
+                <div className='h-t' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
                   <img className='m-cover' src={rrSh} alt='' />
                   <h2 className='m-j'>"Illusion Night"</h2>
                   <div className='music-link'>
@@ -79,21 +88,21 @@ Very fond of sweets, but weak with overly spicy food. At first <br/>glance, she 
               </div>
             </div>
           <div className='m-personal'>
-              <h2 className='m-tss'>Fans</h2>
-              <hr className='m-l' />
-              <p className='m-ppp'>
+              <h2 className='m-tss' data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">Fans</h2>
+              <hr className='m-l' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200" />
+              <p className='m-ppp' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1600">
     Her fanbase is officially called "MERAKyats." It's a pun of "Merak" and "Rakyat" which means <br/>"Peacock" and "People," respectively. The word "Merakyat" itself has the meaning of "being humble" in Indonesian. <br/><br/>
     Members are officially called "The Royaltea." A pun of "Royalty" and "Tea."
               </p>
             </div> 
           <div className='m-personal'>
-              <h2 className='m-tss'>Social</h2>
-              <hr className='m-l'/>
+              <h2 className='m-tss' data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">Social</h2>
+              <hr className='m-l' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200"/>
               <div className='m-socials'>
-                <a className='rr' href='https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q' target='_blank'><BsYoutube size={40}/></a>
-                <a className='rr' href='https://twitter.com/pavoliareine' target='_blank'><BsTwitter size={40}/></a>
-                <a className='rr' href='https://www.instagram.com/pavoliareine/' target='_blank'><BsInstagram size={40}/></a>
-                <a className='rr' href='https://www.facebook.com/pavoliareine' target='_blank'><FaFacebookSquare size={40}/></a>
+                <a className='rr' href='https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q' target='_blank' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1400"><BsYoutube size={40}/></a>
+                <a className='rr' href='https://twitter.com/pavoliareine' target='_blank' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1600"><BsTwitter size={40}/></a>
+                <a className='rr' href='https://www.instagram.com/pavoliareine/' target='_blank' data-aos="fade-up" data-aos-delay="200" data-aos-duration="1800"><BsInstagram size={40}/></a>
+                <a className='rr' href='https://www.facebook.com/pavoliareine' target='_blank' data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000"><FaFacebookSquare size={40}/></a>
               </div>
             </div>
           </div>
