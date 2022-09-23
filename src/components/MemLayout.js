@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {Link} from 'react-router-dom'
 
 import './MemLayout.css'
@@ -16,28 +16,37 @@ import iLord from '../assets/lordp.png'
 import iKaela from '../assets/kaelap.png'
 import iZeta from '../assets/zetap.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const MemLayout = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className='layout'>
       <img src={bg} id='image' alt='' />
       <div className='l-bg'>
         <div className='mem-list'>
 
-          <div className="risu">
+          <div className="risu" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <Link to='/member/ayunda-risu'>
               <img src={iRisu} className="imagek"/> 
             </Link>
             <h3>GEN 1 - AREA 15</h3>
             <h2>AYUNDA RISU</h2>
           </div>
-          <div className="moona">
+          <div className="moona" data-aos="fade-up" data-aos-delay="500" data-aos-duration="900">
             <Link to='/member/moona-hoshinova'>
               <img src={iMoona} className="imagek"/> 
             </Link>
             <h3>GEN 1 - AREA 15</h3>
             <h2>MOONA HOSHINOVA</h2>
           </div>
-          <div className="yopi">
+          <div className="yopi" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1200">
             <Link to='/member/airani-iofifteen'>
               <img src={iYopi} className="imagek"/> 
             </Link>
